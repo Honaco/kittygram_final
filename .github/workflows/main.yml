@@ -114,6 +114,7 @@ jobs:
       - name: Build and push gateway
         uses: docker/build-push-action@v7
         with:
+        
           context: ./nginx
           push: true
           tags: |
